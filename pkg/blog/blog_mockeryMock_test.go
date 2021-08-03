@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/mock"
 )
 
-func TestGetBlogTestifyMock(t *testing.T) {
+func TestGetBlogMockeryMock(t *testing.T) {
 	tests := []struct {
 		posts []post.Post
 	}{
@@ -38,7 +38,7 @@ func TestGetBlogTestifyMock(t *testing.T) {
 	}
 }
 
-func TestAddPostTestifyMock(t *testing.T) {
+func TestAddPostMockeryMock(t *testing.T) {
 	tests := []struct {
 		posts []post.Post
 	}{
